@@ -1,13 +1,18 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png" />
-    <h1>La mia prima app con Vue CLI!</h1>
+    <myApp />
   </div>
 </template>
 
 <script>
+import myApp from "./components/myApp.vue";
+
 export default {
   name: "App",
+  components: {
+    myApp,
+  },
 };
 </script>
 
